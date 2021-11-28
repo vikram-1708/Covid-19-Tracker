@@ -88,15 +88,16 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-         /* Heading of Project */ 
+         // Heading of Project  
           <h1>Covid-19 tracker</h1> 
-         /* Dropdown with the help of Material-UI */
+         // Dropdown with the help of Material-UI 
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
               onChange={onCountryChange}
               value={country}
             >
+               // we have fetched all the country names from disease.sh using useEffect(to call API)
               <MenuItem value="worldwide">Worldwide</MenuItem>
               {countries.map((country) => (
                 <MenuItem value={country.value}>{country.name}</MenuItem>
