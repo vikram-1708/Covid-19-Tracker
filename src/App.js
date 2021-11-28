@@ -34,6 +34,7 @@ function App() {
       });
   }, []);
 
+  // to get all the country names
   useEffect(() => {
     const getCountriesData = async () => {
       await fetch("https://disease.sh/v3/covid-19/countries")
