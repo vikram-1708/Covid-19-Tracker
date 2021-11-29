@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
 }
 
-.app__left {
+.app__left {   // it takes 90% of the screen
   flex: 0.9;
 }
 
