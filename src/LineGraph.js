@@ -84,8 +84,8 @@ function LineGraph({ casesType, ...props }) {
   }, [casesType]);
 
   return (
-    <div className={props.className}>
-      {data?.length > 0 && (
+    <div className={props.className}> 
+      {data?.length > 0 && (   // condition whether data exists or not
         <Line
           data={{
             datasets: [
