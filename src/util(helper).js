@@ -7,7 +7,7 @@ const casesTypeColors = {
     hex: "#CC1034",
     // rgb: "rgb(204,16,52)",
     // half_op: "rgba(204,16,52,0.5)",
-    mulitiplier: 800,
+    mulitiplier: 800, // shows the size of the circles
   },
 
   recovered: {
