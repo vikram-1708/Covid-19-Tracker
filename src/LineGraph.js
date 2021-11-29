@@ -54,7 +54,7 @@ const buildChartData = (data, casesType) => {
     if (lastDataPoint) {
       let newDataPoint = {
         x: date,
-        y: data[casesType][date] - lastDataPoint,
+        y: data[casesType][date] - lastDataPoint,  // to get the new cases per day by... today's cases - yesterday's cases
       };
       chartData.push(newDataPoint);
     }
