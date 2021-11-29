@@ -76,7 +76,7 @@ function App() {
         setCountry(countryCode);
         setCountryInfo(data);
         setLoading(false);
-        // console.log([data.countryInfo.lat, data.countryInfo.long]);
+        // to move our cursor to the current location in the map
         countryCode === "worldwide"
           ? setMapCenter([34.80746, -40.4796])
           : setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
