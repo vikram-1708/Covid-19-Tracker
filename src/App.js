@@ -60,7 +60,8 @@ function App() {
     const countryCode = event.target.value;
 
     setCountry(countryCode);
-
+    
+    // to get the information of country when we click on the dropdown.
     const url =
       countryCode === "worldwide"
         ? "https://disease.sh/v3/covid-19/all"
